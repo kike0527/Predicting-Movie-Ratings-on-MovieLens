@@ -58,7 +58,7 @@ The chosen approaches were selected on an empirical basis and by their mentions 
 * From the algorithms evaluated here, we got the below listed outcomes on the evaluation data set:
     * Baseline (simple mean value): **50%** accuracy (sames as tossing the coin). 
     * Logistic Regression: **57%** accuracy.
-    * XgBoost: 
+    * XgBoost: **59%** accuracy.
     * BInary Matrix Factorization: **58.2%** accuracy.
 
 > ### Total spent time on this exercise $\approx$ 7 hours (training included).
