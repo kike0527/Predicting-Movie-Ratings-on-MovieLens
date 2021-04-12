@@ -38,7 +38,7 @@ The chosen approaches were selected on an empirical basis and by their mentions 
     * Using word embedding techniques over the given features (if we used them) such as clustering words on a pre-trained model (GloVe word embedding, for instance) may require up to 30GB of free memory just to extract and apply the mapping to the words presen on tags.
 
 * By binarysing data, we're not dealing with unbalanced classes. Instead, we have a very uniformely distribution between 0 & 1 classes, with 50% & 50% respectively.
-* Note how the BMF method gets any prediction by using elementwise multiplication from the corresponding embeddings (feature matrices) and then sum to get the prediction $u_i m_j$. This avoids creating the dense matrix $U \times M^T$, hugely saving space allocation and processing requirements.
+* Note how the BMF method gets any prediction by using elementwise multiplication from the corresponding embeddings (feature matrices) and then sum to get the prediction u_i x m_j. This avoids creating the dense matrix U x M^T, hugely saving space allocation and processing requirements.
 
 
 ### Future work (if time is given)
@@ -61,4 +61,4 @@ The chosen approaches were selected on an empirical basis and by their mentions 
     * XgBoost: **59%** accuracy.
     * BInary Matrix Factorization: **58.2%** accuracy.
 
-> ### Total spent time on this exercise $\approx$ 7 hours (training included).
+> ### Total spent time on this exercise approx 7 hours (training included).
